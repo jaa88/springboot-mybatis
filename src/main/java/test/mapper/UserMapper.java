@@ -11,4 +11,6 @@ public interface UserMapper {
     int getAllCount();
 
     void batchInsertUser(List<User> list);
+
+    List<User> getAllUser();
 }

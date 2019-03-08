@@ -10,6 +10,15 @@ public class User {
     private int sex;
     private String comment;
     private String phoneNum;
+    private int isDeleted;
+
+    public int getIsDeleted() {
+        return isDeleted;
+    }
+
+    public void setIsDeleted(int isDeleted) {
+        this.isDeleted = isDeleted;
+    }
 
     public int getId() {
         return id;

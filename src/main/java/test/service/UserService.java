@@ -24,6 +24,10 @@ public class UserService {
         return userMapper.getAllCount();
     }
 
+    public List<User> getAllUser(){
+        return userMapper.getAllUser();
+    }
+
     public String batchInsertUser(int count){
         List<User> list=new ArrayList<User>();
         //生产一个小于20的数字用于确定地址长度
